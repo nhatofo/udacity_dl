@@ -22,7 +22,7 @@ Now because the amount of data have grown they need a more powerfull data proces
 ## Project Description
 
 The Sparkify currently have a on premisse postgress data werehouse and they want to move there analytics process to the cloud. so they will need to move  there song and log data using  json files to a amazon S3 storage service as a staging area and after that  load on a redshift databese for futher analysis.
-Because the volume of data and the need of more powerfull data processing tolling they have to use apache spark to move data back and forward from S3 to redshift in parquet format which is more suitable for big data analysis, therefore there a need for more robust data warehouse. so as proposal we will build a data lake on AWS as solution for the new need.
+Because the volume of data and the need of more powerfull data processing tolling they have to use apache spark to move data back and forward from S3 to redshift in parquet format which is more suitable for big data analysis, therefore there an need for an more robust data warehouse. So as proposal we will sugest a data lake on AWS as solution for the new need.
 
 ### Getting Started
 #### Run Python scripts below
