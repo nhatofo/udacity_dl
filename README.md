@@ -36,7 +36,7 @@ To run on an Jupyter Notebook powered by an EMR cluster, import the notebook fou
   
 ### Prerequisites
 
-AWS accout provisioned with redshift database instance, S3 bucket,  and IAM role with admin level access to connect a redshift cluster and perform above listed operations.
+AWS accout provisioned with, S3 bucket,  and IAM role with admin level access to connect a S3 and perform above listed operations, use apache spark as data processing tool.
 and python 3.x, (local or cloud based) to run the scripts.
 
 ### Installing
