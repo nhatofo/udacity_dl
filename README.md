@@ -1,4 +1,4 @@
-# Amazon RedShift Data Werehouse
+# Data Lake with Apache Spark on  AWS.
 
 ## Summary
 * [Introduction](#Introduction)
@@ -17,8 +17,7 @@
 ## Introduction
 
 Sparkify is a music streaming startup that provides free and paid on cloud music streaming plans and there are trying to enquire more users with paid plans. So they wanted to move from a local postgress analytic data wharehouse to a cloud based anlytics process using Amazon Redshift so that they can be more flexible on the of analyse  their users behavior and how to convert them to paid customers. 
-
-Now they because the amount of data have grown they need a more powerfull data processing tolling at big data scale.
+Now because the amount of data have grown they need a more powerfull data processing tolling at big data scale.
 
 ## Project Description
 
@@ -45,7 +44,7 @@ Use the etl.ipynd notebook to develop the ETL process for each of tables before 
 
 
 ### Running the tests
-Test by running create_tables.py and checking the table schemas on your redshift database. You can use Query Editor in the AWS Redshift console for that.
+Test by running scrits provided by analytics team, and see if the result is what was expected.
 
 
 ### Built With
@@ -62,7 +61,7 @@ Test by running create_tables.py and checking the table schemas on your redshift
 
 ### Authors
 
-* **Teofilo Carlos Chichume** - *Initial work* - [nhatofo](https://github.com/nhatofo/redshiftdw_ud.git)
+* **Teofilo Carlos Chichume** - *Initial work* - [nhatofo](https://github.com/nhatofo/udacity_dl)
 
 
 ### License
